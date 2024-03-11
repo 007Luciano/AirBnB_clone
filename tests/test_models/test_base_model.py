@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Defines unittests for base_model module"""
 
-import sys
 import os
 import models
 import unittest

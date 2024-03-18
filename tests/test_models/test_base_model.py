@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""Defines unittests for base_model module"""
+"""Defines unittests for models/base_model.py module"""
 
-import sys
+import unittest
+from models.base_model import BaseModel
+from datetime import datetime
 import os
 import models
-import unittest
-from datetime import datetime
 from time import sleep
-from models.base_model import BaseModel
+import sys
 
 
 class TestBaseModel(unittest.TestCase):
@@ -67,7 +67,7 @@ class TestBaseModel(unittest.TestCase):
 
 
 class TestBaseModel_save(unittest.TestCase):
-    """Unittests for testing save method of the BaseModel"""
+    """Representation of testing save method of the BaseModel"""
 
     @classmethod
     def setUp(self):
